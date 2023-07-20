@@ -12,3 +12,12 @@
 .work .content .workBx img {
     max-width: 100%;
 }
+
+
+/****Responsive****/
+@media (max-width: 991px) {
+    .work .content .workBx {
+        width: 100%;
+        padding: 10px;
+    }
+}

@@ -26,3 +26,26 @@
     font-weight: 500;
     color: #fff;
 }
+
+
+
+/****Responsive****/
+@media (max-width: 991px) {
+    .banner {
+        padding: 100px 50px;
+    }
+
+    .banner h2 {
+        font-size: 1.5em;
+    }
+
+    .banner h3 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner {
+        padding: 150px 20px 100px;
+    }
+}

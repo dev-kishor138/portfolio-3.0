@@ -23,3 +23,26 @@
 img {
     max-width: 100%;
 }
+
+
+
+/****Responsive****/
+@media (max-width: 991px) {
+    .contentBx h3 {
+        font-size: 20px;
+    }
+
+    .contentBx p {
+        font-size: 15px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .w50 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {}

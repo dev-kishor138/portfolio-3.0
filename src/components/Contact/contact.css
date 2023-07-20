@@ -86,3 +86,11 @@
     color: #2196f3;
     margin-bottom: 0;
 }
+
+
+/****Responsive****/
+@media (max-width: 991px) {
+    .contactInfo {
+        margin: 20px 0;
+    }
+}

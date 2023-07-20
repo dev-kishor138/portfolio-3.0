@@ -48,6 +48,69 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li:hover {}
+
 header.sticky ul li a {
     color: #111;
 }
+
+/****Responsive****/
+@media (max-width: 991px) {
+
+    header,
+    header.sticky {
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    .menu {
+        position: fixed;
+        top: 81px;
+        right: -100%;
+        display: block;
+        padding: 10px 0;
+        width: 200px;
+        text-align: center;
+        background: #2196f3;
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    .menu.active {
+        right: 10px;
+    }
+
+    header ul li:hover {
+        background-color: #fff;
+    }
+
+    header ul li a {
+        color: #111;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background: url('../../assets/img/menu.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+
+    .toggle.active {
+        background: url("../../assets/img/close.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+
+    header.sticky .toggle {
+        filter: invert(1);
+    }
+}
+
+@media (max-width: 600px) {}

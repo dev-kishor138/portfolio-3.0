@@ -1,10 +1,12 @@
-
+import './footer.css'
 
 const Footer = () => {
     return (
-        <div>
-
-        </div>
+        <footer>
+            <div className="copyright">
+                <p>Copyright @ 2023 Kishor. All Right Reserved.</p>
+            </div>
+        </footer>
     );
 };
 

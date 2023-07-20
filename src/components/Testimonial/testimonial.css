@@ -35,3 +35,14 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+
+/****Responsive****/
+@media (max-width: 991px) {
+    .testimonial .content .testimonialBx {
+        max-width: calc(100% - 20px);
+        padding: 40px 20px;
+        margin: 10px;
+        background: #2196f3;
+    }
+}
