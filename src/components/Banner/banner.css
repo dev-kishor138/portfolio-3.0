@@ -1,0 +1,28 @@
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url('../../assets/img/banner.jpg');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #fff;
+}
