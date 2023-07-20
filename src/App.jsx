@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About/About';
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
+import Services from './components/Services/Services';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Navbar toggleMenu={toggleMenu} />
       <Banner />
       <About />
+      <Services />
 
     </>
   )
