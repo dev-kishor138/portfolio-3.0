@@ -1,0 +1,14 @@
+.work .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work .content .workBx {
+    width: 50%;
+    padding: 20px;
+}
+
+.work .content .workBx img {
+    max-width: 100%;
+}
